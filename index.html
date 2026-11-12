@@ -22,7 +22,7 @@
       <div class="section-body about-grid">
         <div>
           <h2 class="about-title" id="about-title">R_PG_</h2>
-          <img class="about-profile-image" src="icon.png" alt="R_PG_のプロフィール画像">
+          <img class="about-profile-image" src="images/icon.png" alt="R_PG_のプロフィール画像">
         </div>
         <div class="about-text">
           <p>
@@ -46,24 +46,34 @@
           <span class="count">03 PROJECTS</span>
         </div>
         <div class="works-list">
-          <article class="work-item">
+          <a class="work-item" href="https://github.com/" target="_blank" rel="noreferrer">
             <div class="work-number">01</div>
-            <div class="work-main"><h3>Study Timer</h3><p>集中時間を記録するシンプルなタイマーアプリ</p></div>
-            <div class="tags"><span>JavaScript</span><span>UI Design</span></div>
+            <div class="work-main"><h3>KOSEN TODO</h3><p>高専生向けのグループ機能付きカレンダーアプリ</p></div>
+            <div class="tags"><span>HTML/CSS</span><span>JavaScript</span></div>
             <span class="arrow">↗</span>
-          </article>
-          <article class="work-item">
+            <div class="work-preview" aria-label="KOSEN TODOのプレビュー">
+              <div class="work-preview-track">
+                <img src="images/icon.png" alt="KOSEN TODOのプレビュー 1">
+                <img src="images/audioedit_1.png" alt="KOSEN TODOのプレビュー 2">
+              </div>
+              <div class="work-preview-dots" aria-hidden="true"></div>
+            </div>
+          </a>
+          <a class="work-item" href="https://colab.research.google.com/drive/1FrukYYhD1r9CAgXT5V8na9JWjMmaU3Jg?usp=sharing" target="_blank" rel="noreferrer">
             <div class="work-number">02</div>
-            <div class="work-main"><h3>部室の温度計</h3><p>センサーで部室の環境を見える化する電子工作</p></div>
-            <div class="tags"><span>Python</span><span>IoT</span></div>
+            <div class="work-main"><h3>音声編集ツール</h3><p>アップロードした音声のカット・音量調整ができる</p></div>
+            <div class="tags"><span>Python</span></div>
             <span class="arrow">↗</span>
-          </article>
-          <article class="work-item">
-            <div class="work-number">03</div>
-            <div class="work-main"><h3>文化祭マップ</h3><p>校内の展示場所を探せるインタラクティブマップ</p></div>
-            <div class="tags"><span>HTML/CSS</span><span>Map API</span></div>
-            <span class="arrow">↗</span>
-          </article>
+            <div class="work-preview" aria-label="音声編集ツールのプレビュー">
+              <div class="work-preview-track">
+                <img src="images/audioedit_1.png" alt="音声編集ツールのプレビュー 1">
+                <img src="images/audioedit_2.png" alt="音声編集ツールのプレビュー 2">
+                <img src="images/audioedit_3.png" alt="音声編集ツールのプレビュー 3">
+                <img src="images/audioedit_4.png" alt="音声編集ツールのプレビュー 4">
+              </div>
+              <div class="work-preview-dots" aria-hidden="true"></div>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -73,22 +83,89 @@
       <div class="section-body skills-grid">
         <h2 id="skills-title">スキル</h2>
         <div class="skill-cloud">
-          <span class="skill">C</span>
-          <span class="skill">C++</span>
-          <span class="skill">C#</span>
-          <span class="skill">Python</span>
-          <span class="skill">Arduino</span>
-          <span class="skill">Git / GitHub</span>
-          <span class="skill">ROS2</span>
+          <div class="skill" tabindex="0">
+            <span class="skill-name">C</span>
+            <span class="skill-detail"><b>習熟度</b><span class="skill-meter" aria-label="3段階中3"><i class="is-filled"></i><i class="is-filled"></i><i class="is-filled"></i></span><span class="skill-level">実践</span><b>主な用途</b> ロボット制御</span>
+          </div>
+          <div class="skill" tabindex="0">
+            <span class="skill-name">C++</span>
+            <span class="skill-detail"><b>習熟度</b><span class="skill-meter" aria-label="3段階中3"><i class="is-filled"></i><i class="is-filled"></i><i class="is-filled"></i></span><span class="skill-level">実践</span><b>主な用途</b> ロボット制御</span>
+          </div>
+          <div class="skill" tabindex="0">
+            <span class="skill-name">C#</span>
+            <span class="skill-detail"><b>習熟度</b><span class="skill-meter" aria-label="3段階中2"><i class="is-filled"></i><i class="is-filled"></i><i></i></span><span class="skill-level">基礎</span><b>主な用途</b> アプリ制作</span>
+          </div>
+          <div class="skill" tabindex="0">
+            <span class="skill-name">Python</span>
+            <span class="skill-detail"><b>習熟度</b><span class="skill-meter" aria-label="3段階中2"><i class="is-filled"></i><i class="is-filled"></i><i></i></span><span class="skill-level">基礎</span><b>主な用途</b> ツール開発</span>
+          </div>
+          <div class="skill" tabindex="0">
+            <span class="skill-name">Arduino</span>
+            <span class="skill-detail"><b>習熟度</b><span class="skill-meter" aria-label="3段階中3"><i class="is-filled"></i><i class="is-filled"></i><i class="is-filled"></i></span><span class="skill-level">実践</span><b>主な用途</b> 電子工作・制御</span>
+          </div>
+          <div class="skill" tabindex="0">
+            <span class="skill-name">Git / GitHub</span>
+            <span class="skill-detail"><b>習熟度</b><span class="skill-meter" aria-label="3段階中2"><i class="is-filled"></i><i class="is-filled"></i><i></i></span><span class="skill-level">基礎</span><b>主な用途</b> コード管理・共同制作</span>
+          </div>
+          <div class="skill" tabindex="0">
+            <span class="skill-name">ROS2</span>
+            <span class="skill-detail"><b>習熟度</b><span class="skill-meter" aria-label="3段階中2"><i class="is-filled"></i><i class="is-filled"></i><i></i></span><span class="skill-level">基礎</span><b>主な用途</b> ロボット通信</span>
+          </div>
+          <div class="skill" tabindex="0">
+            <span class="skill-name">HTML</span>
+            <span class="skill-detail"><b>習熟度</b><span class="skill-meter" aria-label="3段階中1"><i class="is-filled"></i><i></i><i></i></span><span class="skill-level">入門</span><b>主な用途</b> web開発</span>
+          </div>
+          <div class="skill" tabindex="0">
+            <span class="skill-name">CSS</span>
+            <span class="skill-detail"><b>習熟度</b><span class="skill-meter" aria-label="3段階中1"><i class="is-filled"></i><i></i><i></i></span><span class="skill-level">入門</span><b>主な用途</b> web開発</span>
+          </div>
         </div>
       </div>
     </section>
 
     <footer class="footer">
-      <p>お問い合わせ</p>
-      <a href="mailto:hello@example.com">LET'S TALK <span>↗</span></a>
-      <small>© 2025 TARO YAMADA</small>
+      <small>© 2026 R-PG22 All rights reserved.</small>
     </footer>
   </main>
+  <script>
+    document.querySelectorAll('.work-item').forEach((workItem) => {
+      const track = workItem.querySelector('.work-preview-track');
+      const slides = track.querySelectorAll('img');
+      const dots = workItem.querySelector('.work-preview-dots');
+      let currentSlide = 0;
+      let slideTimer;
+
+      slides.forEach((slide, index) => {
+        const dot = document.createElement('span');
+        dot.className = 'work-preview-dot';
+        dot.classList.toggle('is-active', index === 0);
+        dots.append(dot);
+      });
+
+      if (slides.length < 2) return;
+
+      const showNextSlide = () => {
+        currentSlide = (currentSlide + 1) % slides.length;
+        track.style.transform = `translateX(-${currentSlide * 100}%)`;
+        dots.querySelectorAll('.work-preview-dot').forEach((dot, index) => {
+          dot.classList.toggle('is-active', index === currentSlide);
+        });
+      };
+
+      const startSliding = () => {
+        if (!slideTimer) slideTimer = setInterval(showNextSlide, 3000);
+      };
+
+      const stopSliding = () => {
+        clearInterval(slideTimer);
+        slideTimer = undefined;
+      };
+
+      workItem.addEventListener('mouseenter', startSliding);
+      workItem.addEventListener('mouseleave', stopSliding);
+      workItem.addEventListener('focusin', startSliding);
+      workItem.addEventListener('focusout', stopSliding);
+    });
+  </script>
 </body>
 </html>
